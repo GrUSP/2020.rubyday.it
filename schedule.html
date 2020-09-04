@@ -6,66 +6,64 @@ title: Schedule
 
   {% include schedule/intro.html date='September 16th' %}
 
-  <div class="schedule" data-dates="1-25,5-12,1-24">
+  <div class="schedule" data-dates="9-16">
     <table class="schedule__table">
       <thead>
         {% include schedule/header.html tracks='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='09:00 - 09:30' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='09:30 - 09:40' title='GrUSP presentation' fill='true' %}
-        {% include schedule/event.html time='09:40 - 09:50' title='rubyday presentation' fill='true' %}
+        {% include schedule/event.html time='09:45 - 10:00' title='GrUSP presentation' fill='true' %}
 
-        {% include schedule/talk.html time='09:50 - 10:40' title='Zeitwerk: A new code loader for Ruby' keynote='true' fill='true' %}
-        {% include schedule/pause.html time='10:40 - 11:00' title='Short break' icon="coffee" fill='true' %}
-        
-        {% include schedule/talk.html time='11:00 - 11:50' title='Beauty and the Beast: your application and distributed systems' fill='true' %}  
-        {% include schedule/talk.html time='11:50 - 12:40' title='Enterprise Ruby 2.1' fill='true' %}
+        {% include schedule/talk.html time='10:00 - 10:45' title='Less abstract! Expressing Ruby OOP in pictures' fill='true' %}
+        {% include schedule/talk.html time='10:45 - 11:30' title='Sequel: When ActiveRecord is not enough' fill='true' %}
 
-        {% include schedule/pause.html time='12:40 - 14:20' title='Lunch + Lightning talks' icon="food" fill='true' %}
+        {% include schedule/pause.html time='11:30 - 12:00' title='Coffee break' icon="coffee" fill='true' %}
+        
+        {% include schedule/talk.html time='12:00 - 12:45' title='OSS - to be defined' fill='true' %}
+        {% include schedule/talk.html time='12:45 - 13:30' title='Product metrics for developers' fill='true' %}
 
-        {% include schedule/talk.html time='14:20 - 15:10' title='Building modern web-applications with GraphQL & serverless Ruby' fill='true' %}
-        {% include schedule/talk.html time='15:10 - 16:00' title='Hanami 2.0' fill='true' %}
+        {% include schedule/pause.html time='13:30 - 14:30' title='Lunch' icon="food" fill='true' %}
+
+        {% include schedule/talk.html time='14:30 - 15:15' title='Moving to GraphQL - the fuzzy parts' fill='true' %}
+        {% include schedule/talk.html time='15:15 - 16:00' title='Technically, a Talk' fill='true' %}
         
-        {% include schedule/pause.html time='16:00 - 16:20' title='Coffee break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='16:00 - 16:30' title='Coffee break' icon="coffee" fill='true' %}
         
-        {% include schedule/talk.html time='16:20 - 17:10' title='Live code a game on the browser with Opal and Vue.js' fill='true' %}
-        {% include schedule/talk.html time='17:10 - 18:00' title='Ruby 3.0 Redux' keynote='true' fill='true' %}
+        {% include schedule/talk.html time='16:30 - 17:15' title='Cool, But... Why?' fill='true' %}
+        {% include schedule/talk.html time='17:15 - 18:00' title='Reduce Memory by Using More' fill='true' %}
         
-        {% include schedule/pause.html time='18:00 - 18:10' title='Bye bye from GrUSP' icon="bar" fill='true' %}
-        {% include schedule/pause.html time='18:10 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+        {% include schedule/pause.html time='18:00 - 18:15' title='Bye bye from GrUSP' icon="bar" fill='true' %}
       </tbody>
     </table>
   </div>
 
-  <div class="schedule schedule--mobile" data-dates="5-12,1-24,1-25">
+  <div class="schedule schedule--mobile" data-dates="9-16">
     <table class="schedule__table">
       <thead>
         {% include schedule/header.html track='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='09:00 - 09:30' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='09:30 - 09:40' title='GrUSP presentation' fill='true' %}
-        {% include schedule/event.html time='09:40 - 09:50' title='rubyday presentation' fill='true' %}
+        {% include schedule/event.html time='09:45 - 10:00' title='GrUSP presentation' fill='true' %}
 
-        {% include schedule/talk.html time='09:50 - 10:40' title='Zeitwerk: A new code loader for Ruby' keynote='true' fill='true' %}
-        {% include schedule/pause.html time='10:40 - 11:00' title='Short break' icon="coffee" fill='true' %}
-        
-        {% include schedule/talk.html time='11:00 - 11:50' title='Beauty and the Beast: your application and distributed systems' fill='true' %}  
-        {% include schedule/talk.html time='11:50 - 12:40' title='Enterprise Ruby 2.1' fill='true' %}
+        {% include schedule/talk.html time='10:00 - 10:45' title='Less abstract! Expressing Ruby OOP in pictures' fill='true' %}
+        {% include schedule/talk.html time='10:45 - 11:30' title='Sequel: When ActiveRecord is not enough' fill='true' %}
 
-        {% include schedule/pause.html time='12:40 - 14:20' title='Lunch + Lightning talks' icon="food" fill='true' %}
+        {% include schedule/pause.html time='11:30 - 12:00' title='Coffee break' icon="coffee" fill='true' %}
 
-        {% include schedule/talk.html time='14:20 - 15:10' title='Building modern web-applications with GraphQL & serverless Ruby' fill='true' %}
-        {% include schedule/talk.html time='15:10 - 16:00' title='Hanami 2.0' fill='true' %}
-        
-        {% include schedule/pause.html time='16:00 - 16:20' title='Coffee break' icon="coffee" fill='true' %}
-        
-        {% include schedule/talk.html time='16:20 - 17:10' title='Live code a game on the browser with Opal and Vue.js' fill='true' %}
-        {% include schedule/talk.html time='17:10 - 18:00' title='Ruby 3.0 Redux' fill='true' %}
-        
-        {% include schedule/pause.html time='18:00 - 18:10' title='Bye bye from GrUSP' icon="bar" fill='true' %}
-        {% include schedule/pause.html time='18:10 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+        {% include schedule/talk.html time='12:00 - 12:45' title='OSS - to be defined' fill='true' %}
+        {% include schedule/talk.html time='12:45 - 13:30' title='Product metrics for developers' fill='true' %}
+
+        {% include schedule/pause.html time='13:30 - 14:30' title='Lunch' icon="food" fill='true' %}
+
+        {% include schedule/talk.html time='14:30 - 15:15' title='Moving to GraphQL - the fuzzy parts' fill='true' %}
+        {% include schedule/talk.html time='15:15 - 16:00' title='Technically, a Talk' fill='true' %}
+
+        {% include schedule/pause.html time='16:00 - 16:30' title='Coffee break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='16:30 - 17:15' title='Cool, But... Why?' fill='true' %}
+        {% include schedule/talk.html time='17:15 - 18:00' title='Reduce Memory by Using More' fill='true' %}
+
+        {% include schedule/pause.html time='18:00 - 18:15' title='Bye bye from GrUSP' icon="bar" fill='true' %}
       </tbody>
     </table>
   </div>
